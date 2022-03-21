@@ -1,0 +1,49 @@
+.content-about{
+  position: relative;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: calc(100vh);
+  background-color: rgba(0,198,255,1);
+  box-shadow: 0px 1px 20px 0px rgba(105, 105, 105,1);
+
+
+  header{
+    p{
+      text-align: justify;
+      margin: 1em 0 1em 0;
+      color: white;
+      letter-spacing: 0.05em;
+    }
+
+    h1{
+      color: white;
+      font-size: 1.5em;
+
+      span{
+        color: #E69915;
+      }
+    }
+  }
+  .description{
+    letter-spacing: 0.05em;
+    margin: 1em 0 1em 5em;
+
+    li{
+      color: white;
+      margin-bottom: 1em;
+      font-size: 1em;
+
+      span{
+        color: #E69915;
+        font-weight: 700;
+      }
+
+    }
+  }
+
+
+}

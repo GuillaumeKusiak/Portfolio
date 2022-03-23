@@ -1,16 +1,19 @@
 footer{
+  position: relative;
   font-size: 20px;
   width: 100%;
-  height: 4em;
+  height: auto;
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: space-around;
   transition: 0.5s ease-in-out;
 
+
   img{
-    width: 48px;
-    height: 48px;
+    padding: 0.5em;
+    width: calc(1vw + 3.2vh);
+    height: calc(1vw + 3.2vh);
   }
   .networks{
     position: relative;
@@ -70,5 +73,4 @@ footer{
       color: rgba(0,198,255,1);
     }
   }
-
 }

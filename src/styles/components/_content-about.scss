@@ -6,9 +6,10 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  height: calc(100vh);
+  height: 100vh;
   background-color: rgba(0,198,255,1);
   box-shadow: 0px 1px 20px 0px rgba(105, 105, 105,1);
+  padding: 2em;
 
 
   header{
@@ -17,11 +18,12 @@
       margin: 1em 0 1em 0;
       color: white;
       letter-spacing: 0.05em;
+      font-size: calc(0.2vw + 1.5vh);
     }
 
     h1{
       color: white;
-      font-size: 1.5em;
+      font-size: calc(1vw + 1.3vh);
 
       span{
         color: #E69915;
@@ -29,13 +31,10 @@
     }
   }
   .description{
-    letter-spacing: 0.05em;
-    margin: 1em 0 1em 5em;
-
     li{
       color: white;
       margin-bottom: 1em;
-      font-size: 1em;
+      font-size: calc(0.2vw + 1.5vh);
 
       span{
         color: #E69915;
@@ -44,6 +43,4 @@
 
     }
   }
-
-
 }

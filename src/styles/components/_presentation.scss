@@ -1,5 +1,9 @@
 .presentation{
   font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
 
   h2{
     color: #E69915;
@@ -11,7 +15,7 @@
   p{
     margin-top: 1em;
     color: white;
-    font-size: calc(1.3vw + 1.8vh);
+    font-size: calc(1vw + 1.3vh);
     letter-spacing: 0.05em;
     font-weight: 700;
   }
@@ -29,7 +33,7 @@
     a{
       text-decoration: none;
       color: white;
-      font-size: 1.3em;
+      font-size: calc(0.5vw + 1.1vh);
       font-weight: 700;
       letter-spacing: 0.05em;
     }

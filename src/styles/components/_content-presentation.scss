@@ -10,5 +10,12 @@
 
   img{
     border-radius: 50%;
+    width: calc(5vw + 20vh);
+    height: calc(5vw + 20vh);
+  }
+}
+@media screen and (max-width: 500px) {
+  .content-presentation{
+    flex-direction: column;
   }
 }

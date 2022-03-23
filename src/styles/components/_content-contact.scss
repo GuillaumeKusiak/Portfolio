@@ -5,15 +5,15 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
   height: calc(100vh);
   background-color: white;
   box-shadow: 0px 1px 20px 0px rgba(105, 105, 105,1);
+  gap: 5em;
 
   header{
     h1{
       color: #E69915;
-      font-size: 1.5em;
+      font-size: calc(0.4vw + 2.2vh);
       letter-spacing: 0.05em;
 
       span{
@@ -23,19 +23,19 @@
     p{
       margin-top: 1em;
       color: black;
-      font-size: 1em;
+      font-size: calc(0.3vw + 1.7vh);
     }
   }
   .contact{
     display: flex;
     flex-direction: column;
-    margin-left: 5em;
     gap: 5em;
   }
   .email,.linkedin,.tel{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    font-size: calc(0.3vw + 1.7vh);
     padding: 1em;
     border-radius: 1em;
     color: white;
@@ -63,4 +63,19 @@
   .tel{
     transform: translateX(-5em);
   }
+}
+
+@media screen and (max-width: 1200px){
+  .content-contact .linkedin{
+    transform: translateX(0);
+  }
+  .content-contact .tel{
+    transform: translateX(0);
+  }
+}
+@media screen and (max-width: 1050px){
+  .content-contact{
+    flex-direction: column;
+  }
+
 }

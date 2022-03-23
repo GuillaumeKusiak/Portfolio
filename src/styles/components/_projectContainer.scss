@@ -3,8 +3,8 @@
   overflow: hidden;
   top: 0;
   font-size: 20px;
-  width:  20em;
-  height: 26em;
+  width:  calc(10vw + 21vh);
+  height: calc(10vw + 35vh);
   display: flex;
   justify-content: center;
   cursor: pointer;
@@ -26,16 +26,15 @@
     transition: 0.3s ease-in-out;
 
     h2{
-      font-size: 1em;
+      font-size: calc(0.4vw + 1.5vh);
     }
 
     span{
       color: #E69915;
     }
   }
-
   &:hover{
-    top: -5%;
+    top: -2vw;
   }
   &:hover .description{
     transform: translateY(0);

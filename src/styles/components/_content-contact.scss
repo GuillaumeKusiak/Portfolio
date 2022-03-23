@@ -29,14 +29,14 @@
   .contact{
     display: flex;
     flex-direction: column;
-    gap: 5em;
+    gap: calc(0.6vw + 10vh);
   }
   .email,.linkedin,.tel{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     font-size: calc(0.3vw + 1.7vh);
-    padding: 1em;
+    padding: calc(0.6vw + 0.8vh);
     border-radius: 1em;
     color: white;
     cursor: pointer;

@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.5d66f11d.css",
+    "main.js": "/Portfolio/static/js/main.ea4df230.js",
+    "static/media/Kusiak Guillaume.pdf": "/Portfolio/static/media/Kusiak Guillaume.b83c758be3a86f49e1ad.pdf",
+    "static/media/Projet1.png": "/Portfolio/static/media/Projet1.0f3ffc9665f37eee7648.png",
+    "static/media/Projet2.png": "/Portfolio/static/media/Projet2.975bb346debd5c746995.png",
+    "static/media/2.jpg": "/Portfolio/static/media/2.db7eda8f6b42c91c82a2.jpg",
+    "static/media/Projet3.png": "/Portfolio/static/media/Projet3.ca529a1991dc9700998f.png",
+    "static/media/gmail-icon(1).svg": "/Portfolio/static/media/gmail-icon(1).82e5bc3846dcbbdbd0d42b6dd1971f43.svg",
+    "static/media/github-icon.svg": "/Portfolio/static/media/github-icon.c8cfa56243cf4fda092e289d106d5a51.svg",
+    "static/media/humberger.svg": "/Portfolio/static/media/humberger.7701b5f360d4f1fadffe13557c600fa7.svg",
+    "static/media/linkedin-icon (2).svg": "/Portfolio/static/media/linkedin-icon (2).13ad23157260e7ec494bd194b696bd2f.svg",
+    "static/media/linkedin-icon-2(1).svg": "/Portfolio/static/media/linkedin-icon-2(1).9e134ecb7948fbbd9557ad4dc8160e92.svg",
+    "static/media/tel.svg": "/Portfolio/static/media/tel.802c163d34e19357cf109a358eb353a2.svg",
+    "index.html": "/Portfolio/index.html",
+    "static/media/download.svg": "/Portfolio/static/media/download.5c981afccbf1c3d7f6f3adbab6a33543.svg",
+    "main.5d66f11d.css.map": "/Portfolio/static/css/main.5d66f11d.css.map",
+    "main.ea4df230.js.map": "/Portfolio/static/js/main.ea4df230.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5d66f11d.css",
+    "static/js/main.ea4df230.js"
+  ]
+}

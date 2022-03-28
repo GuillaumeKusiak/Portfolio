@@ -16,19 +16,19 @@ const ContentAbout = () => {
 
     return (
         <section id={"about"} className={"content-about"}>
-            <header>
+            <header className={"introduction"}>
                 <h1>A propos de moi<span>.</span></h1>
-                <p>Je m’appelle Guillaume Kusiak, est je suis actuellement étudiant en 1ère année de BUT<br/>
-                    informatique dans l’IUT d’Aix-Marseille.</p>
-                <p>Je suis une personne très simple, dont la vie est composée de plusieurs “ côté “ :<br/></p>
+                <p>Je m’appelle Guillaume, je suis actuellement étudiant en 1ère année de BUT
+                    informatique à l’IUT d’Aix-Marseille.</p>
+                <p>Pour me décrire en quelques mots, je suis un :<br/></p>
             </header>
-            <p className={"description"}>
+            <div className={"description"}>
                 <ul>
-                    <li><span>Un côté geek</span>, notamment l’informatique avec tous ses aspects qui la compose, mais plus<br/> particulièrement le développement web.</li>
-                    <li><span>Un côté sportif</span>, notamment avec le ski qui est pour moi une grande source d’inspiration,<br/> dans lequel j’ai acsquis durant de nombreuses années un excellent niveau.</li>
-                    <li><span>Un côté bricoleur</span>, notamment dans la réalisation de restanque en pierre, d’une cabane<br/> perché en bois, de réparation et création de différents outils, ainsi qu’un aspect de<br/> jardinage</li>
+                    <li><span>Geek</span> : l’informatique est un domaine qui me passionne dans tous ses aspects (développement web, programmation orienté objet ou encore montage / réparation d'ordinateurs), avec tout de même une préférence pour développement (le code quoi !).</li>
+                    <li><span>Sportif</span> : j'adore le ski, qui est pour moi source de liberté et de vitalité. Passé la saison hivernale je m'oriente vers un autre sport de montagne, le VTT de descente (DH, Enduro). Et pour rester en forme toute l'année, rien de mieux qu'un peu de musculation !</li>
+                    <li><span>Bricoleur</span> : mes mains ne sont pas simplement à l'aise sur un clavier 😉, elles le sont aussi dans des activités manuelles (restanque en pierre, cabane dans les arbres mais aussi jardinage et rénovation de petits engins agricoles).</li>
                 </ul>
-            </p>
+            </div>
         </section>
     );
 };

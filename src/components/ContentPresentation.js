@@ -6,7 +6,7 @@ const ContentPresentation = () => {
     return (
         <section id="nav" className={"content-presentation"}>
             <Presentation />
-            <img src={profile}/>
+            <img className={"profile"} src={profile}/>
         </section>
     );
 };

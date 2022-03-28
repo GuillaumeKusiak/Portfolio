@@ -1,5 +1,4 @@
 .presentation{
-  font-size: 20px;
   display: flex;
   flex-direction: column;
   align-items: start;
@@ -8,35 +7,81 @@
   h2{
     color: #E69915;
     text-transform: uppercase;
-    font-size: calc(0.8vw + 1.2vh);
+    //font-size: calc(0.8vw + 1.2vh);
+    //font-size: calc(3.872808806vh - 0.6242356298vw);
+    //font-size: calc(2.6vh + 0.3vw);
+    font-size: 1.8em;
     letter-spacing: 0.1em;
+    text-shadow: 1px 0px 1px rgba(255,255,255,0.6);
   }
 
   p{
     margin-top: 1em;
     color: white;
-    font-size: calc(1vw + 1.3vh);
+    //font-size: calc(2.4vh + 0.3vw);
+    font-size: 1.5em;
     letter-spacing: 0.05em;
     font-weight: 700;
   }
 
   button{
+    position: relative;
     margin-top: 2em;
     background-color: #E69915;
+    color: white;
     width: auto;
     height: auto;
     border: none;
     border-radius: 0.5em;
     padding: 1em;
     cursor: pointer;
+    -webkit-box-shadow: 0px 0px 5px 0px #E69915;
+    box-shadow: 0px 0px 5px 0px #E69915;
+    transition: 0.3s ease-in-out;
+
+    &::before{
+      content: "";
+      position: absolute;
+      width: 0;
+      height: 100%;
+      background-color: white;
+      top: 0;
+      left: 0;
+      transition: 0.3s ease-in-out;
+      border-radius: 0.5em;
+    }
+    &:hover::before{
+      width: 100%;
+    }
+    a{
+      transition: 0.3s ease-in-out;
+      position: relative;
+      z-index: 2;
+    }
+    &:hover{
+      -webkit-box-shadow: 0px 0px 5px 0px #ffffff;
+      box-shadow: 0px 0px 5px 0px #ffffff;
+    }
+    &:hover a{
+      color: #E69915;
+    }
 
     a{
       text-decoration: none;
       color: white;
-      font-size: calc(0.5vw + 1.1vh);
+      //font-size: calc(0.5vw + 1.1vh);
+      font-size: 1.5em;
       font-weight: 700;
       letter-spacing: 0.05em;
     }
   }
 
+}
+@media screen and (max-width: 550px){
+  .presentation{
+    align-items: center;
+    p{
+      text-align: center;
+    }
+  }
 }

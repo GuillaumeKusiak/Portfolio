@@ -5,43 +5,52 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  height: calc(100vh);
+  height: auto;
   background-color: white;
   box-shadow: 0px 1px 20px 0px rgba(105, 105, 105,1);
   gap: 5em;
+  padding: 15vh 1em 15vh 1em;
 
   header{
     h1{
       color: #E69915;
-      font-size: calc(0.4vw + 2.2vh);
+      //font-size: calc(0.4vw + 2.2vh);
+      font-size: 1.8em;
       letter-spacing: 0.05em;
 
       span{
+        font-size: 1.8rem;
         color: rgba(0,198,255,1);
       }
     }
     p{
       margin-top: 1em;
       color: black;
-      font-size: calc(0.3vw + 1.7vh);
+     // font-size: calc(0.3vw + 1.7vh);
+      font-size: 1.3em;
     }
   }
   .contact{
     display: flex;
     flex-direction: column;
     gap: calc(0.6vw + 10vh);
+
   }
   .email,.linkedin,.tel{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    font-size: calc(0.3vw + 1.7vh);
+    //font-size: calc(0.3vw + 1.7vh);
     padding: calc(0.6vw + 0.8vh);
     border-radius: 1em;
     color: white;
     cursor: pointer;
     transition: 0.3s ease-in-out;
     background-color: rgba(0,198,255,1);
+
+    p{
+      font-size: 1.2em;
+    }
 
     &:hover{
       -webkit-box-shadow: 0px 1px 8px 1px #424242;
@@ -57,19 +66,16 @@
       transition: 0.3s ease-in-out;
     }
   }
-  .linkedin{
-    transform: translateX(5em);
+  .email{
+    transform: translateX(-10em);
   }
   .tel{
-    transform: translateX(-5em);
+    transform: translateX(-10em);
   }
 }
 
 @media screen and (max-width: 1200px){
-  .content-contact .linkedin{
-    transform: translateX(0);
-  }
-  .content-contact .tel{
+  .content-contact .linkedin, .content-contact .email, .content-contact .tel{
     transform: translateX(0);
   }
 }

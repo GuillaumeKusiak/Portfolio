@@ -8,17 +8,19 @@ footer{
   flex-direction: row;
   justify-content: space-around;
   transition: 0.5s ease-in-out;
+  padding: 1em 0 1em 0;
 
 
   img{
-    padding: 0.5em;
-    width: calc(1vw + 3.2vh);
-    height: calc(1vw + 3.2vh);
+    //width: calc(1vw + 3.2vh);
+    //height: calc(1vw + 3.2vh);
+    width: 3em;
+    height: 3em;
   }
   .networks{
     position: relative;
     display: flex;
-    gap: 5em;
+    gap: 5vw;
     align-items: center;
 
     .linkedin,.github{
@@ -68,8 +70,9 @@ footer{
       color: #E69915;
       transition: 0.3s ease-in-out;
     }
-    a{
+    p{
       font-size: 1em;
+      text-decoration: none;
       color: rgba(0,198,255,1);
     }
   }

@@ -7,21 +7,21 @@ const ContentContact = () => {
     return (
         <section id={"contact"} className={"content-contact"}>
             <header>
-                <h1>Besoin de me contacter <span>?</span></h1>
-                <p>Vous voulez prendre contact avec moi, je vous laisse<br/> choisir le moyen le plus adéquat <span>!</span></p>
+                <h1>Comment me contacter <span>?</span></h1>
+                <p>Je vous laisse choisir le moyen le plus adéquat <span>!</span></p>
             </header>
             <section className={"contact"}>
-                <div className={"email"}>
-                    <img src={email} />
-                    <a>guillaume.kusiak@etu.univ-amu.fr</a>
+                <div className={"email"} onClick={() => {window.open("mailto:guillaume.kusiak@gmail.com")}}>
+                    <img src={email} alt={"email"}/>
+                    <p>guillaume.kusiak@gmail.com</p>
                 </div>
-                <div className="linkedin">
-                    <img src={linkedin} />
-                    <a>Guillaume Kusiak</a>
+                <div className="linkedin" onClick={() => {window.open("https://www.linkedin.com/in/guillaume-kusiak-b28463226/","_blank")}}>
+                    <img src={linkedin} alt={"linkedin"} />
+                    <p>Guillaume Kusiak</p>
                 </div>
-                <div className="tel">
-                    <img src={tel} />
-                    <a>06.50.55.94.21</a>
+                <div className="tel" onClick={() => {window.open("tel:0650559421")}}>
+                    <img src={tel} alt={"téléphone"} />
+                    <p>06.50.55.94.21</p>
                 </div>
             </section>
         </section>

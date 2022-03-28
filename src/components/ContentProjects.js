@@ -8,7 +8,7 @@ const ContentProjects = () => {
     return (
         <section id={"top"} className={"content-projects"}>
             <header>
-                <h1><span>&lt; </span>Voici mes réalisations web<span> /&gt;</span></h1>
+                <h1><span>&lt; </span>Mes réalisations web<span> /&gt;</span></h1>
             </header>
             <div>
                 <ProjectContainer link={Projet1} description={"Sète-Circuit-Tour"} url={"https://guillaumekusiak.github.io/Sete-Circuit-Tour/"}/>

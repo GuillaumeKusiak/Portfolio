@@ -1,5 +1,5 @@
 import React from 'react';
-import {NavLink} from "react-router-dom";
+import {HashLink as Link} from "react-router-hash-link";
 
 const Presentation = () => {
     return (
@@ -11,7 +11,7 @@ const Presentation = () => {
                 de BUT Informatique.
             </p>
             <button>
-                <NavLink to={"/contact"}>Contactez-moi</NavLink>
+                <Link className={"link"} to="/#contact" smooth={true} spy={true} duration={500} >Contactez-moi</Link>
             </button>
         </header>
     );

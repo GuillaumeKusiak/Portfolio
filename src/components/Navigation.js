@@ -30,7 +30,7 @@ const Navigation = (e) => {
                     <Link className={"link"} to={"/#nav"} smooth={true} spy={true} duration={500}>Accueil</Link>
                 </li>
                 <li>
-                    <Link className={"link"} to={"/#top"} smooth={true} spy={true} duration={500}>Mes réalisations</Link>
+                    <Link className={"link"} to={"/#top"} smooth={true} spy={true} duration={500}>Réalisations</Link>
                 </li>
                 <li>
                     <Link className={"link"} to={"/#about"} smooth={true} spy={true} duration={500}>A propos</Link>
@@ -39,7 +39,7 @@ const Navigation = (e) => {
                     <Link className={"link"} to="/#contact" smooth={true} spy={true} duration={500} >Contact</Link>
                 </li>
                 <li>
-                    <a className={"link"} href={pdf} target={"_blank"}>Mon CV</a>
+                    <a className={"link"} href={pdf} target={"_blank"}>CV</a>
                 </li>
             </ul>
             <ul className={"menu"}>

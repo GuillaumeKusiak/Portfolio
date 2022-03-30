@@ -24,9 +24,9 @@ const ContentAbout = () => {
             </header>
             <div className={"description"}>
                 <ul>
-                    <li><span>Geek</span> : l’informatique est un domaine qui me passionne dans tous ses aspects (développement web, programmation orienté objet ou encore montage / réparation d'ordinateurs), avec tout de même une préférence pour développement (le code quoi !).</li>
-                    <li><span>Sportif</span> : j'adore le ski, qui est pour moi source de liberté et de vitalité. Passé la saison hivernale je m'oriente vers un autre sport de montagne, le VTT de descente (DH, Enduro). Et pour rester en forme toute l'année, rien de mieux qu'un peu de musculation !</li>
-                    <li><span>Bricoleur</span> : mes mains ne sont pas simplement à l'aise sur un clavier 😉, elles le sont aussi dans des activités manuelles (restanque en pierre, cabane dans les arbres mais aussi jardinage et rénovation de petits engins agricoles).</li>
+                    <li><span>Geek</span> : l’informatique est un domaine qui me passionne dans tous ses aspects (développement web, programmation orienté objet ou encore montage / réparation d'ordinateurs), avec tout de même une préférence pour le développement (le code quoi !).</li>
+                    <li><span>Sportif</span> : j'adore le ski, qui est pour moi source de liberté et de vitalité. Passée la saison hivernale je m'oriente vers un autre sport de montagne, le VTT de descente (DH, Enduro). Et pour rester en forme toute l'année, rien de mieux qu'un peu de musculation !</li>
+                    <li><span>Bricoleur</span> : mes mains ne sont pas simplement à l'aise sur un clavier 😉, elles le sont aussi dans des activités manuelles (construction d'une restanque en pierre, cabane dans les arbres mais aussi jardinage et rénovation de petits engins agricoles).</li>
                 </ul>
             </div>
         </section>

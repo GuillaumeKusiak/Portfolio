@@ -39,7 +39,7 @@ const Navigation = (e) => {
                     <Link className={"link"} to="/#contact" smooth={true} spy={true} duration={500} >Contact</Link>
                 </li>
                 <li>
-                    <a className={"link"} href={pdf} target={"_blank"} rel="noreferrer">CV</a>
+                    <a className={"link"} href={pdf} target={"_blank"}>CV</a>
                 </li>
             </ul>
             <ul className={"menu"}>

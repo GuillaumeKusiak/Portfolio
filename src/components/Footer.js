@@ -2,7 +2,7 @@ import React from 'react';
 import linkedin from "../assets/img/linkedin-icon (2).svg";
 import github from "../assets/img/github-icon.svg";
 import download from "../assets/img/download.svg";
-import pdf from "../assets/pdf/Kusiak Guillaume.pdf";
+import pdf from "../assets/pdf/Kusiak_Guillaume.pdf";
 
 const Footer = () => {
     return (

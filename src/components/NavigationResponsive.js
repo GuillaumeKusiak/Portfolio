@@ -1,6 +1,6 @@
 import React from 'react';
 import {HashLink as Link} from "react-router-hash-link";
-import pdf from "../assets/pdf/Kusiak Guillaume.pdf";
+import pdf from "../assets/pdf/Kusiak_Guillaume.pdf";
 
 const NavigationResponsive = () => {
 

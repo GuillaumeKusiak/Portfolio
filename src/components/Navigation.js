@@ -1,7 +1,7 @@
 import React from 'react';
 import {HashLink as Link} from "react-router-hash-link";
 import menu from "../assets/img/humberger.svg";
-import pdf from "../assets/pdf/Kusiak Guillaume.pdf";
+import pdf from "../assets/pdf/Kusiak_Guillaume.pdf";
 
 const Navigation = (e) => {
 

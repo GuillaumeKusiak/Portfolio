@@ -8,8 +8,8 @@ const Footer = () => {
     return (
         <footer id={"CV"}>
             <div className={"networks"}>
-                <a className={"linkedin"} href={"https://www.linkedin.com/in/guillaume-kusiak-b28463226/"} target={"_blank"}><img src={linkedin}/></a>
-                <a className={"github"} href={"https://github.com/GuillaumeKusiak"} target={"_blank"}><img src={github}/></a>
+                <a className={"linkedin"} href={"https://www.linkedin.com/in/guillaume-kusiak-b28463226/"} target={"_blank"} rel="noreferrer"><img src={linkedin} alt={"linkedin"}/></a>
+                <a className={"github"} href={"https://github.com/GuillaumeKusiak"} target={"_blank"} rel="noreferrer"><img src={github} alt={"github"}/></a>
             </div>
             <div className="download" onClick={() => {window.open(pdf,"_blank")}}>
                 <img src={download} alt={"donwload"} />
